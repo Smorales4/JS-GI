@@ -1,19 +1,17 @@
 let num1 = prompt("Give me your first number.");
 let num2 = prompt("Give me your second number.");
 
+let result;
+
 function add(num1, num2) {
-    let suma = num1 + num2;
-    return suma;
+    result = num1 + num2;
 }
 function subtract(num1, num2) {
-    let restante = num1 -= num2;
-    return restante;
+    result = num1 - num2;
 }
 function multiply(num1, num2) {
-    let producto = num1 *= num2;
-    return producto;
+    result = num1 * num2;
 }
 function divide(num1, num2) {
-    let dividendo = num1 /= num2;
-    return dividendo;
+    result = num1 / num2;
 }
